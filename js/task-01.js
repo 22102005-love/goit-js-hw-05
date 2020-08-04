@@ -1,10 +1,11 @@
 "use script";
 const Account = function (object) {
-  this.object = object;
+  this.login = object.login;
+  this.email = object.email;
 };
 
 Account.prototype.getInfo = function () {
-  console.log(this.object);
+  console.log(`Login: ${this.login}, Email: ${this.email}`);
 };
 
 console.log(Account.prototype.getInfo);

@@ -24,9 +24,9 @@ class Car {
     this.speed = 0;
   }
   accelerate(value) {
-    let resaltSpeed = this.speed + value;
-    if (resaltSpeed <= this.maxSpeed) {
-      this.speed = resaltSpeed;
+    let resultSpeed = this.speed + value;
+    if (resultSpeed <= this.maxSpeed) {
+      this.speed = resultSpeed;
     }
   }
   decelerate(value) {
